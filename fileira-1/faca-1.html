@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madeira Empório</title>
+  <link rel="stylesheet" href="./css/mais-vendidos.css">
+</head>
+<body>
+
+  <header class="topo">
+    <a href="index.html"><img src="https://i.postimg.cc/ZKvnf1hK/logo.png" alt="Logo" class="logo"></a>
+  </header>
+
+  <main class="container">
+    <section class="galeria">
+      <img src="https://www.cutelariabianco.com.br/cdn/shop/files/AnyConv.com__IMG_1859_jpg_2_c3ea490d-c90a-41c4-98cc-521ddc133fea_600x.webp?v=1712851716" alt="Produto Principal" class="principal">
+      <div class="miniaturas">
+        <img src="https://www.cutelariabianco.com.br/cdn/shop/files/AnyConv.com__IMG_1858_jpg_4_14ad41bf-10fe-4b17-a327-2430f1e8b0f3_600x.webp?v=1712851715" alt="Miniatura 1">
+        <img src="https://www.cutelariabianco.com.br/cdn/shop/files/AnyConv.com__IMG_1860_jpg_3_871c6892-a913-42e8-a17a-5514a2307637_600x.webp?v=1712851716" alt="Miniatura 2">
+        <img src="https://www.cutelariabianco.com.br/cdn/shop/files/AnyConv.com__IMG_1859_jpg_2_c3ea490d-c90a-41c4-98cc-521ddc133fea_600x.webp?v=1712851716" alt="Miniatura 3">
+      </div>
+    </section>
+
+    <section class="detalhes">
+      <h1>Modelo Tábua Artesanal</h1>
+      <p class="preco">R$ 419,89</p>
+      <p class="descricao">
+        Faca artesanal com lâmina de aço inox 10", cabo em madeira nobre, ideal para churrasco e pescaria. Feita à mão com acabamento premium.
+      </p>
+      <ul class="info">
+        <li>Lâmina: 10" em aço inox</li>
+        <li>Cabo: Madeira nobre</li>
+        <li>Acompanha bainha de couro</li>
+      </ul>
+      <a href="https://wa.me/5547997553696" class="botao-whats" target="_blank">Comprar pelo WhatsApp</a>
+    </section>
+  </main>
+
+  <script>
+    const principal = document.querySelector('.principal');
+    const miniaturas = document.querySelectorAll('.miniaturas img');
+
+    miniaturas.forEach(mini => {
+      mini.addEventListener('click', () => {
+        principal.src = mini.src;
+        principal.alt = mini.alt;
+      });
+    });
+  </script>
+
+
+
+
+
+
+<!-- Rodapé de Recomendados -->
+<section class="recomendados">
+  <h2>Recomendados</h2>
+  <div class="slider-container">
+    <button class="prev">&#10094;</button>
+    <div class="slider">
+
+      
+      <a href="tabua-1.html" class="produto-link">
+        <div class="produto">
+          <img src="https://www.cutelariabianco.com.br/cdn/shop/files/AnyConv.com__IMG_1859_jpg_2_c3ea490d-c90a-41c4-98cc-521ddc133fea_600x.webp?v=1712851716" alt="Faca 1" class="produto-img">
+          <h3>Modelo- Tábua 1</h3>
+          <p>R$ 350,00</p>
+          <p style="text-decoration: line-through; color: red; font-size: 14px;">R$ 489,00</p>
+        </div>
+      </a>
+
+
+      <a href="faca-1.html" class="produto-link">
+        <div class="produto">
+          <img src="https://www.cutelariabianco.com.br/cdn/shop/files/Photoroom-20250506_123055_600x.png?v=1746547586" alt="Faca 2" class="produto-img">
+          <h3>Faca Churrasco 10"</h3>
+          <p>R$ 350,00</p>
+          <p style="text-decoration: line-through; color: red; font-size: 14px;">R$ 489,00</p>
+        </div>
+      </a>
+      <!-- Adicione mais produtos conforme necessário -->
+       <a href="faca-1.html" class="produto-link">
+        <div class="produto">
+          <img src="https://www.cutelariabianco.com.br/cdn/shop/files/Photoroom-20250506_123055_600x.png?v=1746547586" alt="Faca 2" class="produto-img">
+          <h3>Faca Churrasco 10"</h3>
+          <p>R$ 350,00</p>
+          <p style="text-decoration: line-through; color: red; font-size: 14px;">R$ 489,00</p>
+        </div>
+      </a>
+
+
+      <a href="faca-1.html" class="produto-link">
+        <div class="produto">
+          <img src="https://www.cutelariabianco.com.br/cdn/shop/files/Photoroom-20250506_123055_600x.png?v=1746547586" alt="Faca 2" class="produto-img">
+          <h3>Faca Churrasco 10"</h3>
+          <p>R$ 350,00</p>
+          <p style="text-decoration: line-through; color: red; font-size: 14px;">R$ 489,00</p>
+        </div>
+      </a>
+
+
+      <a href="faca-1.html" class="produto-link">
+        <div class="produto">
+          <img src="https://www.cutelariabianco.com.br/cdn/shop/files/Photoroom-20250506_123055_600x.png?v=1746547586" alt="Faca 2" class="produto-img">
+          <h3>Faca Churrasco 10"</h3>
+          <p>R$ 350,00</p>
+          <p style="text-decoration: line-through; color: red; font-size: 14px;">R$ 489,00</p>
+        </div>
+      </a>
+
+
+      <a href="faca-1.html" class="produto-link">
+        <div class="produto">
+          <img src="https://www.cutelariabianco.com.br/cdn/shop/files/Photoroom-20250506_123055_600x.png?v=1746547586" alt="Faca 2" class="produto-img">
+          <h3>Faca Churrasco 10"</h3>
+          <p>R$ 350,00</p>
+          <p style="text-decoration: line-through; color: red; font-size: 14px;">R$ 489,00</p>
+        </div>
+      </a>
+    </div>
+    <button class="next">&#10095;</button>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  const slider = document.querySelector('.recomendados .slider');
+  const prevBtn = document.querySelector('.recomendados .prev');
+  const nextBtn = document.querySelector('.recomendados .next');
+
+  const scrollAmount = 200; // Quantos pixels o slider se move por clique
+
+  nextBtn.addEventListener('click', () => {
+    slider.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  });
+
+  prevBtn.addEventListener('click', () => {
+    slider.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  });
+</script>
+
+
+
+
+
+</body>
+</html>
